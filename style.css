@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Potta+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.cover1 {
+    margin: 0px;
+    width: 50%;
+    opacity: 0.7;
+}
+
+.cover2 {
+    width: 50%;
+    float: right;
+    opacity: 0.7;
+}
+
+/* .cover3{
+    width: 33%;
+    height: 100%;
+    float: center;
+    opacity: 0.7;
+} */
+
+/* .backimg img{
+    background-repeat: no-repeat;
+    width: 100vw;   
+} */
+.logoimg {
+    display: inline-block;
+    width: 79px;
+    height: 79px;
+    margin-left: 26px;
+    margin-top: 4px;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    border: 3px black;
+    height: 89px;
+}
+
+.navbar li {
+    float: left;
+    margin: 36px;
+    font-family: 'Aboreto',
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+
+}
+
+ul li {
+    display: flex;
+    color: white;
+
+}
+
+ul li a {
+
+    list-style: none;
+    text-decoration: none;
+    color: #cddc39;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+  
+}
+
+ul li a:hover {
+    background-color:white;
+    color: rgb(60, 2, 68);
+    /* background-color: rgb(25, 136, 187); */
+
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(163 134 134);
+    color: rgb(19, 17, 18);
+    font-size: 46px;
+    /* font-weight: bold; */
+    /* border-radius: 12px; */
+    font-family: 'Cormorant Garamond', serif;
+    cursor: pointer;
+}
+
+.navbar input {
+
+    padding: 16px;
+    width: 127px;
+    margin: 20px;
+    border-radius: 18px;
+
+}
+nav .search{
+    margin-left: 156px;
+    background-color: #d9d966;
+    /* color: cornsilk; */
+    font-size: 16px;
+    font-family: serif;
+    font-weight: bold;
+
+}
+
+.pic1 {
+    width: 50%;
+    height: auto;
+}
+
+.pic2 {
+    width: 50%;
+    float: right;
+    height: auto;
+}
+
+.pic3 {
+    width: 50%;
+    height: 100%;
+
+}
+
+.pic4 {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.pic5 {
+    width: 50%;
+    height: 100%;
+
+}
+
+.pic6 {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.pic7 {
+    width: 50%;
+    height: 100%;
+
+}
+
+.pic8 {
+    width: 50%;
+    height: 100%;
+    float: right;
+
+}
+
+.pic9 {
+    width: 50%;
+    height: 100%;
+
+}
+.icon{
+    margin: 26px;
+    /* margin-top: 33px; */
+    width: 24px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 2px;
+    border-radius: 20px;
+    background-color: yellow
+}
+.icon:hover{
+  cursor: pointer;
+}
+/* .container{
+    background-color: red;
+    margin-left: 356px;
+    padding: 32px;
+    width: 37%;
+    align-items: center;
+    height: 478px;
+} */
+
+.name{
+    flex-direction: column;
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+input .name{
+    margin: auto;
+}
+
+.Age{
+    flex-direction: column;
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.Email{
+    flex-direction: column;
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.Mobile{
+    flex-direction: column;
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.Gender{
+    flex-direction: column;
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.date{
+    flex-direction: column;
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.Yourself{
+    flex-direction: column;
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.Reset{
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+}
+form input{
+   display: flex;
+   margin: 6px;
+}
+
+h3{
+    margin-left: 177px;
+    margin-top: 13px;
+    font-size: 43px;
+    color: gold;
+    background-color: darkgreen;
+    width: 74%;
+    border-radius: 17px;
+    /* justify-self: center; */
+    text-align: center;
+    cursor: pointer;
+}
+.container2{
+    background-color: #ffeb3b80;
+    width: 35%;
+    height: 35%;
+    margin-left: 348px;
+    margin-top: 12px;
+}
+.title{
+    font-size: 25px;
+    color: rgb(255, 8, 90);
+}
+.p1{
+    padding: 9px;
+    margin: 3px;
+    margin-top: 2px;
+    font-size: 18px;
+    color: darkmagenta;
+}
+#istimg{
+    width: 10%;
+    cursor: pointer;
+}
+
+#whimg{
+    width: 7%;
+    cursor: pointer;
+    margin-bottom: -9px;
+}
+.p12{
+    display: flex;
+    /* margin-top: 2px; */
+    font-size: 18px;
+    color: darkmagenta;
+    padding: 9px;
+    margin: 3px;
+}
+.pcontainer{
+    color: brown;
+    background-color: #d9d966;
+    width: 85%;
+    height: 100vh;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 56px;
+}
+.pabout{
+    margin: 12px;
+   
+}
+h4{
+    margin-top: 12px;
+    margin-left: 63px;
+    color: darkgreen;
+    background-color: cornsilk;
+    width: 405px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 27px;
+    cursor: pointer;
+}
+.joinform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 4px 0 0 0;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h5 {
+    margin-top: 15px;
+    margin-bottom: 23px;
+    margin-left: 332px;
+    color: darkgreen;
+    background-color: cornsilk;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 47px;
+    cursor: pointer;
+}
+.btn{
+
+    margin-left: 596px;
+    padding: 12px;
+    margin-left: 616px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: yellow;
+color: black;
+transition:ease-in 0.2s ;
+}
+footer{
+    margin-top: 9px;
+    margin-left: 313px;
+    padding: 2px;
+    background-color: #cf8f30;
+    color: #241f1f;
+    width: 60%;
+    text-align: center;
+    border-radius: 27px;
+    font-size: 27px;
+    align-content: center;
+    
+}
+.footimg{
+    margin-top: 10px;
+    width: 33%;
+    margin-left: 33%;
+border-radius: 122px;
+}
